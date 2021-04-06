@@ -1,0 +1,31 @@
+#startups{
+    font-weight: 800;
+    color: blue;
+    
+}
+    
+    .container {
+        margin: auto;
+        width: 90%;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .icon img {
+        width: 40%;
+
+    }
+
+    .header_second_row {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .section_division {
+        display: flex;
+        justify-content: space-between;
+    }
