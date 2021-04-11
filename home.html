@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>Page Title</title>
 </head>
@@ -263,8 +263,8 @@
                 </div>
 
                 <nav>
-                    <a href="/html/">Help</a> |
-                    <a href="/css/">Contacts</a> |
+                    <a href="#">Help</a> |
+                    <a href="#">Contacts</a> |
                     <i class="fa fa-search" aria-hidden="true"></i>
                     <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                     <i class="fa fa-user-circle" aria-hidden="true"></i>
@@ -283,52 +283,96 @@
             </div>
             <nav>
                 <div class="selection_items">
-                    <select class="Land" name="Land_list">
-                        <option value="Landings">Landings</option>
-                    </select>
+                    <ul>
+                        <li>Landing
+                            <i class="fa fa-angle-down"></i>
+                            <ul>
+                                <li>Graphic Design</li>
+                                <li>Website Design </li>
 
+                            </ul>
+                        </li>
+                        <li>Pages
+                            <i class="fa fa-angle-down"></i>
+                            <ul>
+                                <li>Graphic Design</li>
+                                <li>Website Design </li>
 
-                    <select class="Page" name="Page_list">
-                        <option value="Pages">Pages</option>
-                        <!-- <option value="Albania">Albania</option> -->
-                    </select>
+                            </ul>
+                        </li>
+                        <li>Blogs
+                            <i class="fa fa-angle-down"></i>
+                            <ul>
+                                <li>Graphic Design</li>
+                                <li>Website Design </li>
 
-                    <select class="Blog" name="Blog_list">
-                        <option value="Blogs">Blogs</option>
-                        <!-- <option value="Albania">Albania</option> -->
-                    </select>
+                            </ul>
+                        </li>
+                        <li>Shop
+                            <i class="fa fa-angle-down"></i>
+                            <ul>
+                                <li>Graphic Design</li>
+                                <li>Website Design </li>
 
-                    <select class="Shops" name="Shop_list">
-                        <option value="Shop">Shop</option>
-                    </select>
-                    <select class="Demo" name="Demo_list">
-                        <option value="Demos">Demos</option>
-                    </select>
-                    <select class="Doc" name="Doc_list">
-                        <option value="Docs">Docs</option>
-                    </select>
-                    <input type="button" value="Buy Now" />
+                            </ul>
+                        <li>Demos
+                            <i class="fa fa-angle-down"></i>
+                            <ul>
+                                <li>Graphic Design</li>
+                                <li>Website Design </li>
+
+                            </ul>
+                        <li>Docs
+                            <i class="fa fa-angle-down"></i>
+                            <ul>
+                                <li>Graphic Design</li>
+                                <li>Website Design </li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <input type="button" value="Buy Now" />
+                        </li>
+                    </ul>
+
                 </div>
             </nav>
         </div>
     </div>
-    <div class="section_division">
-        <!-- <section class="banner"> -->
-        <div class="banner_div">
-            <h1>Turn your ideas <br> into a <p id="startups"> startups.|</p> </h1>
-            <h5>Front's feature-rich desined demo pages help you create best possible product</h5>
+    <section>
+        <div class="container">
+            <div class="section_division">
+                <!-- <section class="banner"> -->
+                <div class="banner_div">
+                    <p id="p1">Turn your ideas <br> into a <span id="startups"> startups.|</span> </p>
+                    <p id="p2">Front's feature-rich desined demo pages help <br>you create best possible product</p>
 
-            <div>
-                <input type="button" value="Get Started">
+                    <div id="btn">
+                        <input type="button" value="Get Started">  <span>
+                            <ul id="right">
+                                <li>Learn More
+                                    <i class="fa fa-angle-right"></i>
+                                    <ul>
+                                        <li>Welcome to my new page</li>
+    
+                                    </ul>
+                                </li>
+                            </ul>
+                           </span> 
+                      
+
+                    </div>
+                </div>
+
+                <div class="Right_div">
+                    <img src="./Right.png" alt="Right" title="Right">
+
+                </div>
+
+                <!-- </section> -->
             </div>
         </div>
-
-        <div class="Right_div">
-            <img src="./Right.png" alt="Right" title="Right">
-        </div>
-
-        <!-- </section> -->
-    </div>
+    </section>
 </body>
 
 </html>
